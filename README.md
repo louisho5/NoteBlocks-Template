@@ -1,4 +1,4 @@
-# Code Block Notes
+# NoteBlocks
 
 A pure HTML 5, CSS & JS template built Bootstrap 4.5
 
