@@ -7,9 +7,8 @@ Find our [preview](https://htmlpreview.github.io/?https://github.com/louisho5/No
 ## Getting Started
 
 ### Importants:
-The search filtering is based on <mark>Filterizr JS</mark>: https://github.com/giotiskl/filterizr <br />
-The code highlighter is based on <mark>Prism JS</mark>: https://github.com/PrismJS/prism
-
+The search filtering is applied [Filterizr JS](https://github.com/giotiskl/filterizr) and the code highlighter is based on [Prism JS](https://github.com/PrismJS/prism) <br />
+You may study the above plugin documents to customize you own NoteBlocks template.
 
 ### Basic Usage:
 
