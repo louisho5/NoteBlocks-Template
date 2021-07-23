@@ -1,6 +1,4 @@
-# Project Title
-
-Code Block Notes Template
+# Code Block Notes Template
 
 ## Description
 
