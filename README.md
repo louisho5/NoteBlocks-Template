@@ -2,7 +2,7 @@
 
 A pure HTML 5, CSS & JS template built Bootstrap 4.5
 
-[Preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html)
+[Template Preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html)
 
 ## Getting Started
 
