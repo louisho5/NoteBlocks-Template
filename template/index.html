@@ -1,0 +1,114 @@
+<!--------------------------------------------------------------
+	Project: 		NoteBlocks Template
+	Description: 	A pure HTML 5, CSS & JS template built Bootstrap 4.5
+	Authors: 		Designed by louisho5
+	License: 		This project is licensed under the MIT License
+---------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/prism.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<!-- JS Library -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/prism.js"></script>
+	<script src="assets/js/jquery.filterizr.min.js"></script>
+	
+	<title>Code Block Notes Template</title>
+</head>
+
+<body>
+
+<nav class="container-fluid">
+	<div class="row top-bar">
+		<div class="col-12 px-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 mb-3 mb-md-0">
+						<input class="search-input" type="text" placeholder="Search" data-search>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="custom-select">
+							<select class="filtr-select">
+								<option value="all">All</option>
+								<option value="html">html</option>
+								<option value="js">Javascript</option>
+								<option value="css">CSS</option>
+								<option value="php">PHP</option>
+								<option value="py">Python</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+<div class="nav-spacer"></div>
+
+<div class="container my-4">
+	<div class="row filtr-container">
+
+
+<!----------------------  Code Block Start  ----------------------->
+<div class="col-12 filtr-item" data-category="html">
+<div class="title">Sample HTML : Hello world</div>
+<div class="sample-code">
+<pre class="language-markup"><code><!--
+<ul>
+	<li>Hello</li>
+	<li>World</li>
+</ul>
+--></code></pre>
+</div>
+</div>
+
+<!----------------------  Code Block Start  ----------------------->
+<div class="col-12 filtr-item" data-category="other">
+<div class="title">How to use?</div>
+<div class="sample-code">
+<pre class="language-markdown"><code>
+	Importants:
+	The search filtering is based on <mark>Filterizr JS</mark>: https://github.com/giotiskl/filterizr
+	The code highlighter is based on <mark>Prism JS</mark>: https://github.com/PrismJS/prism
+
+	Basic Usage:
+	[HTML/Markup] 
+	change &lt;pre/> class to <mark>language-markdown</mark>
+	Paste your code in to &lt;code>&lt;!-- &lt;p>Hello world&lt;/p> --&gt;&lt;/code> wrap all contents with HTML comment
+	
+	[Javacript] 
+	change &lt;pre/> class to <mark>language-js</mark>
+	Paste your code in to &lt;code>function(){...}&lt;/code>
+	
+	[CSS] 
+	change &lt;pre/> class to <mark>language-css</mark>
+	Paste your code in to &lt;code>body{background:black}&lt;/code>
+	
+	[PHP] 
+	change &lt;pre/> class to <mark>language-php</mark>
+	Paste your code in to &lt;code>echo "Hello world"&lt;/code>
+</code></pre>
+</div>
+</div>
+
+
+	</div>
+</div>
+
+
+<!-- Javascript -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
