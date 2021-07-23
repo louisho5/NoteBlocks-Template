@@ -14,7 +14,7 @@ The code highlighter is based on <mark>Prism JS</mark>: https://github.com/Prism
 
 Basic Usage:
 [HTML/Markup] 
-change <pre/> class to <mark>language-markdown</mark>
+change &lt;pre/> class to <mark>language-markdown</mark>
 Paste your code in to <code><!-- <p>Hello world</p> --></code> wrap all contents with HTML comment
 
 [Javacript] 
