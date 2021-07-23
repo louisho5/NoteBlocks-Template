@@ -1,7 +1,5 @@
 # Code Block Notes Template
 
-## Description
-
 A pure HTML 5, CSS & JS template built Bootstrap 4.5
 
 ## Getting Started
