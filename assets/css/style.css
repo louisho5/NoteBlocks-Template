@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: #333;
+	background: #f9f9f9;
+}
+
+
+/************************
+* Navigation
+************************/
+nav.fixed {
+    position: fixed;
+    top:0; 
+	left:0;
+    width: 100%; 
+	z-index: 999;
+	animation: 0.3s navShowUp ease both;
+}
+@keyframes navShowUp {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+nav .top-bar {
+	padding: 15px 0;
+	background: white; 
+	transition: 0.3s ease all;
+}
+nav.fixed .top-bar {
+	box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+
+/************************
+* Search Input
+************************/
+.search-input {
+    width: 100%;
+    font-size: 16px;
+	line-height: 2;
+    border: 1px solid #ced4da;
+    background: #eee;
+    padding: 7px 15px;
+	outline: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+.search-input::placeholder {
+	color: #555;
+}
+
+
+/************************
+* Custom Select Option
+************************/
+.custom-select .filtr-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #eee;
+  background-image: none;
+}
+.custom-select .filtr-select::-ms-expand { /* Remove IE arrow */
+  display: none;
+}
+.custom-select {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 3em;
+  line-height: 3;
+  background: #eee;
+  overflow: hidden;
+  font-size: 16px;
+}
+.custom-select .filtr-select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #555;
+  cursor: pointer;
+  line-height: 1;
+}
+.custom-select::after { /* Arrow */
+	font-size: 12px;
+	color: #999;
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 15px;
+	background: #eee;
+	cursor: pointer;
+	pointer-events: none;
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
+}
+
+
+/************************
+* Filter Style
+************************/
+.filtr-container {
+	font-size: 12px;
+	animation: 0.5s fadeIn ease-in both;
+	animation-delay: 1s;
+}
+
+.filtr-container .filtr-item {
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.filtr-container .filtr-item .title {
+	position: relative;
+	/*color: #333;*/
+	background: white;
+    padding: 10px 40px 10px 10px;
+	font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.filtr-container .filtr-item .title:after {
+	content: "";
+	padding: 10px;    
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+	position: absolute;
+    right: 15px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'%3E%3Ctitle%3ECode Slash%3C/title%3E%3Cpath fill='none' stroke='%23999' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M160 368L32 256l128-112M352 368l128-112-128-112M304 96l-96 320'/%3E%3C/svg%3E");
+}
+.filtr-container .filtr-item .sample-code {
+	animation: 0.3s fadeIn ease both;
+	animation-delay: 0.2s;
+	display: none;
+}
+.filtr-container .filtr-item.active .sample-code {
+	display: block;
+}
+.filtr-container .filtr-item .sample-code {
+
+}
+.filtr-container .filtr-item .title .tag {
+	display: inline-block;
+    border: 1px solid #e5e5e5;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 600;
+    padding: 0 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+/************************
+* Scroll Bar Style
+************************/
+/* Firefox */
+* {	
+  scrollbar-width: thin;
+  scrollbar-color: #c3c0c1 #fff;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #c3c0c1;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+
+	
+/***** Desktop *****/
+@media only screen and (max-width: 991px) {
+
+}
+
+/***** Tablet *****/
+@media only screen and (max-width: 767px) {
+
+}
+
+/***** Mobile *****/
+@media only screen and (max-width: 479px) {
+
+}
