@@ -15,19 +15,19 @@ The code highlighter is based on <mark>Prism JS</mark>: https://github.com/Prism
 Basic Usage:
 [HTML/Markup] 
 change &lt;pre/> class to <mark>language-markdown</mark>
-Paste your code in to <code><!-- <p>Hello world</p> --></code> wrap all contents with HTML comment
+Paste your code in to &lt;code>&lt;!-- &lt;p>Hello world&lt;/p> --&gt;&lt;/code> wrap all contents with HTML comment
 
 [Javacript] 
-change <pre/> class to <mark>language-js</mark>
-Paste your code in to <code>function(){...}</code>
+change &lt;pre/> class to <mark>language-js</mark>
+Paste your code in to &lt;code>function(){...}&lt;/code>
 
 [CSS] 
-change <pre/> class to <mark>language-css</mark>
-Paste your code in to <code>body{background:black}</code>
+change &lt;pre/> class to <mark>language-css</mark>
+Paste your code in to &lt;code>body{background:black}&lt;/code>
 
 [PHP] 
-change <pre/> class to <mark>language-php</mark>
-Paste your code in to <code>echo "Hello world"</code>
+change &lt;pre/> class to <mark>language-php</mark>
+Paste your code in to &lt;code>echo "Hello world"&lt;/code>
 
 ## Authors
 
