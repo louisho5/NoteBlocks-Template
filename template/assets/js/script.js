@@ -44,7 +44,6 @@ $( document ).ready(function() {
 		$(window).resize();
 		var intervalID = setInterval(function() {
 			var val = $(".filtr-select option:selected").val();
-			console.log(val);
 			filterizr.filterizr('filter', val);
 		}, 10);
 		setTimeout(function() {
