@@ -42,6 +42,14 @@ $( document ).ready(function() {
 	$(".filtr-container .filtr-item .title").click(function() {
 		$(this).parent().toggleClass("active");
 		$(window).resize();
+		var intervalID = setInterval(function() {
+			var val = $(".filtr-select option:selected").val();
+			console.log(val);
+			filterizr.filterizr('filter', val);
+		}, 10);
+		setTimeout(function() {
+			clearInterval(intervalID);
+		}, 2000);
 	});
 	
 	
