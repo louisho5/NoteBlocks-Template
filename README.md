@@ -1,10 +1,14 @@
-# NoteBlocks
+# NoteBlocks Template (Static Page)
 
 A pure HTML 5, CSS & JS coding notes template built with Bootstrap 4.5
 
-Static webpage with **NO Apache and Database** needs! Find our [preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html) here.
+Static HTML with **NO Apache and Database** needs!  Find our [preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html).
 
-Easy, all is that simple!
+---
+
+### It is that SIMPLE!
+
+**1.** *Take notes on .html* > **2.** *Search and filtering* > **3.** *DONE*
 
 ![alt thumbnail](https://raw.githubusercontent.com/louisho5/NoteBlocks-Template/main/thumbnail.gif)
 
