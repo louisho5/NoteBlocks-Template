@@ -1,6 +1,6 @@
 # NoteBlocks
 
-A pure HTML 5, CSS & JS code block notes template built with Bootstrap 4.5
+A pure HTML 5, CSS & JS coding notes template built with Bootstrap 4.5
 
 Static webpage with **NO Apache and Database** needs! Find our [preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html) here.
 
