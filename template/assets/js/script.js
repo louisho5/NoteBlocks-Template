@@ -48,7 +48,7 @@ $( document ).ready(function() {
 		}, 10);
 		setTimeout(function() {
 			clearInterval(intervalID);
-		}, 2000);
+		}, 1000);
 	});
 	
 	
