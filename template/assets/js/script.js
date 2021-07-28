@@ -1,5 +1,7 @@
-$( document ).ready(function() {
+var filterizr;
 
+$( document ).ready(function() {
+	
 	/*** Prism JS initials ***/
 	Prism.plugins.NormalizeWhitespace.setDefaults({
 		'remove-trailing': true,
@@ -9,11 +11,12 @@ $( document ).ready(function() {
 	});
 
 	/*** Filterizr JS initials ***/
-	var filterizr = $(".filtr-container").filterizr({
+	filterizr = $(".filtr-container").filterizr({
 		animationDuration: 0.2,
 		layout: 'vertical'
 	});
 
+	/*** Sync option to filter val ***/
 	$('.filtr-select').on('change', function(event) {
 	   var val = $(event.currentTarget).val()
 	   filterizr.filterizr('filter', val);
@@ -42,13 +45,7 @@ $( document ).ready(function() {
 	$(".filtr-container .filtr-item .title").click(function() {
 		$(this).parent().toggleClass("active");
 		$(window).resize();
-		var intervalID = setInterval(function() {
-			var val = $(".filtr-select option:selected").val();
-			filterizr.filterizr('filter', val);
-		}, 10);
-		setTimeout(function() {
-			clearInterval(intervalID);
-		}, 2000);
+		resetFilter();
 	});
 	
 	
@@ -63,3 +60,20 @@ $( document ).ready(function() {
 });
 
 
+/****** On Resize ******/
+window.onresize = function(event) {
+    resetFilter();
+};
+
+
+/*** Reset and Sync Select Option ***/
+function resetFilter() {
+	var intervalID = setInterval( function() {
+		var val = $(".filtr-select option:selected").val();
+		//console.log(val);
+		filterizr.filterizr('filter', val);
+	}, 10);
+	setTimeout(function() {
+		clearInterval(intervalID);
+	}, 1000);
+}
