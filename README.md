@@ -16,7 +16,7 @@ Static HTML with **NO Apache and Database** needs!  Find our [preview](https://h
 
 ### Importants:
 The search filtering is applied [Filterizr JS](https://github.com/giotiskl/filterizr) and the code highlighter is based on [Prism JS](https://github.com/PrismJS/prism) <br />
-You may study the above plugin documents to customize you own NoteBlocks template.
+You may study the above plugin documents to customize your own NoteBlocks template.
 
 ### Basic Usage:
 
