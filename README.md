@@ -2,7 +2,7 @@
 
 A pure HTML 5, CSS & JS coding notes template built with Bootstrap 4.5
 
-Static HTML with **NO Apache and Database** needs!  Find our [preview](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html).
+Static HTML with **NO Apache and Database** needs!  [View Demo](https://htmlpreview.github.io/?https://github.com/louisho5/NoteBlocks-Template/blob/main/template/index.html).
 
 ---
 
